@@ -9,7 +9,7 @@ The multi-threaded queue implementation is located in the file "queue.h"
 The unit tests for this queue are implemented in the file "QueueTests.cpp"
 
 Build & Run instructions:
-1) After cloning the project "queue_reader_writer", go to the folder "Google_tests/lib" and run the command "git clone https://github.com/google/googletest.git"
-2) After cloning the GoogleTest framework, go to the root folder of the project "queue_reader_writer" and run "cmake"
+1) After cloning the project "queue_reader_writer", create the folder "Google_tests/lib", navigate to the folder "lib" and run the command "git clone https://github.com/google/googletest.git"
+2) After cloning the GoogleTest framework, navigate to the root folder of the project "queue_reader_writer" and run "cmake ."
 3) Run "make"
-4) Go to the folder "Google_tests" and run "Google_Tests_run"
+4) Navigate to the folder "Google_tests" and run "Google_Tests_run"
