@@ -1,0 +1,15 @@
+This program was compiled and tested only for the C++17 standard under Ubuntu 16.04.7 LTS using the tools listed below:
+1. CLion 2020.3.2
+1.1. CMake 3.17.5
+1.1.1. GCC 5.4.0
+1.1.2. GNU Make 4.1
+1.2. Google Test 1.11.0
+
+The multi-threaded queue implementation is located in the file "queue.h"
+The unit tests for this queue are implemented in the file "QueueTests.cpp"
+
+Build & Run instructions:
+1) After cloning the project "queue_reader_writer", go to the folder "Google_tests/lib" and run the command "git clone https://github.com/google/googletest.git"
+2) After cloning the GoogleTest framework, go to the root folder of the project "queue_reader_writer" and run "cmake"
+3) Run "make"
+4) Go to the folder "Google_tests" and run "Google_Tests_run"
