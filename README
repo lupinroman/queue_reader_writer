@@ -6,7 +6,7 @@ This program was compiled and tested only for the C++17 standard under Ubuntu 16
 1.2. Google Test 1.11.0
 
 The multi-threaded queue implementation is located in the file "queue.h"
-The unit tests for this queue are implemented in the file "QueueTests.cpp"
+The unit tests for this queue are implemented in the file "Google_tests/QueueTests.cpp"
 
 Build & Run instructions:
 1) After cloning the project "queue_reader_writer", create the folder "Google_tests/lib", navigate to the folder "lib" and run the command "git clone https://github.com/google/googletest.git"
